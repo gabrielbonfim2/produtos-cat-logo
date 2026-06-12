@@ -1,0 +1,12 @@
+.sobre {
+  max-width: 700px;
+}
+
+.sobre p {
+  line-height: 1.7;
+  color: #374151;
+}
+
+.sobre ul {
+  line-height: 1.8;
+}

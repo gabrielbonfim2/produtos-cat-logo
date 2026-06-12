@@ -1,0 +1,51 @@
+.card {
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+}
+
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.imagem {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.info {
+  padding: 1rem;
+}
+
+.categoria {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: #6b7280;
+  letter-spacing: 0.05em;
+}
+
+.nome {
+  margin: 0.4rem 0;
+  font-size: 1.05rem;
+}
+
+.preco {
+  font-weight: bold;
+  color: #16a34a;
+  font-size: 1.1rem;
+}
+
+.acoes {
+  padding: 0 1rem 1rem 1rem;
+}

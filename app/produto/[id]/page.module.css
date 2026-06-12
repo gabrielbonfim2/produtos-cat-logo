@@ -1,0 +1,53 @@
+.voltar {
+  display: inline-block;
+  margin-bottom: 1.5rem;
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.voltar:hover {
+  text-decoration: underline;
+}
+
+.conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 2rem;
+  border: 1px solid #e5e7eb;
+}
+
+.imagem {
+  flex: 1 1 300px;
+  max-width: 400px;
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1 1 300px;
+}
+
+.categoria {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #6b7280;
+  letter-spacing: 0.05em;
+}
+
+.preco {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #16a34a;
+  margin: 0.5rem 0 1rem;
+}
+
+.descricao {
+  color: #374151;
+  line-height: 1.6;
+  margin-bottom: 1.5rem;
+}
